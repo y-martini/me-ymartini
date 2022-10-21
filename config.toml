@@ -1,3 +1,32 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://ymartini.me/'
+languageCode = 'en'
+title = 'Yuriy Martini'
+theme = 'coder'
+
+[params]
+author = 'Yuriy Martini'
+description = "Yuriy Martini's personal website"
+keywords = "blog,developer,personal"
+info = ['Software Developer']
+avatarURL = "images/avatar.jpg"
+
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = 'https://github.com/yuriy-martini'
+target = '_blank'
+
+[[params.social]]
+name = "E-Mail"
+icon = "fa fa-2x fa-envelope"
+weight = 3
+url = 'mailto:hi@ymartini.me'
+
